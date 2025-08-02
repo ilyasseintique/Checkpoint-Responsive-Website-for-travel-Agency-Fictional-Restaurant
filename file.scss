@@ -1,0 +1,18 @@
+// Variable
+$primary-color: #3498db;
+
+// Mixin
+@mixin center-text {
+  text-align: center;
+  font-weight: bold;
+}
+
+// Nesting + variable + mixin
+body {
+  background-color: lighten($primary-color, 40%);
+
+  h1 {
+    color: $primary-color;
+    @include center-text;
+  }
+}

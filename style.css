@@ -1,0 +1,13 @@
+.n1{
+    margin-left: 80%;
+}
+.hero_sec{
+    height: 50vh;
+    background-image: url(./image.png);
+    flex-direction: row;
+    
+}
+.sh{
+        box-shadow:2px 3px 20px  gray;
+
+}
